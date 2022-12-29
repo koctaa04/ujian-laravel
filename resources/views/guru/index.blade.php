@@ -10,7 +10,7 @@
                     </div>
                     <div class="card-body row">
                         @for ($i = 1; $i <= 10; $i++)
-                        <div class="lessons col-lg-3 p-4 ">
+                        <div class="lessons col-lg-3 col-md-4 col-sm-6 p-4 ">
                             <a href="">
                                 <div class="p-2  border rounded-5">
                                     <div class="p-2 mt-4">
@@ -35,7 +35,7 @@
         {{-- Footer --}}
         <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-center py-2 px-4 px-xl-5">
             <!-- Copyright -->
-            <div class=" mb-3 mb-md-0">
+            <div class="mt-4 mb-md-0">
                 Copyright © 2022. stevendesu.
             </div>
             <!-- Copyright -->
