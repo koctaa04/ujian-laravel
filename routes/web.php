@@ -28,3 +28,6 @@ Route::get('siswa', function () {
 Route::get('/contact', function () {
     return view('siswa.contact');
 });
+Route::get('siswa/lessons', function () {
+    return view('siswa.lessons');
+});

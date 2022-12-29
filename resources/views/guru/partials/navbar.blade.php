@@ -33,8 +33,7 @@
         <div class="container">
 
             <a class="navbar-brand" href="/siswa">
-                <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M3.5 15.75C3.5 8.98451 8.98451 3.5 15.75 3.5H29.75C30.7165 3.5 31.5 4.2835 31.5 5.25C31.5 6.2165 30.7165 7 29.75 7H15.75C10.9175 7 7 10.9175 7 15.75V29.75C7 30.7165 6.2165 31.5 5.25 31.5C4.2835 31.5 3.5 30.7165 3.5 29.75V15.75Z"
                         fill="#0EC8F8" />
@@ -51,18 +50,20 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link px-md-4 active" aria-current="page" href="/siswa">Home</a>
+                        <a class="nav-link px-md-4 active" aria-current="page" href="/guru">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-md-4" href="/siswa/lessons">Lessons</a>
+                        <a class="nav-link px-md-4" href="/guru/studentData">Student Data</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-md-4" href="/contact">Contacts</a>
-                        <a class="nav-link px-md-4" href="/siswa/contacts">Contacts</a>
+                        <a class="nav-link px-md-4" href="/guru/lessons">My Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-md-4" href="guru/settings">settings</a>
                     </li>
                 </ul>
                 <div class="d-flex">
-                    <a class="btn btn-get-started btn-get-started-blue text-white" href="#">Logout</a>
+                    <a class="btn btn-get-started btn-get-started-blue text-white" href="">Logout</a>
                 </div>
             </div>
         </div>
