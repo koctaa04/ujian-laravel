@@ -56,7 +56,7 @@
                         <a class="nav-link px-md-4" href="#">Lessons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-md-4" href="#">Contacts</a>
+                        <a class="nav-link px-md-4" href="/contact">Contacts</a>
                     </li>
                 </ul>
                 <div class="d-flex">
