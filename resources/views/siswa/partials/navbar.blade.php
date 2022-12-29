@@ -57,7 +57,7 @@
                         <a class="nav-link px-md-4" href="/siswa/lessons">Lessons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-md-4" href="/contact">Contacts</a>
+                        <a class="nav-link px-md-4" href="/siswa/contact">Contacts</a>
                         <a class="nav-link px-md-4" href="/siswa/contacts">Contacts</a>
                     </li>
                 </ul>

@@ -25,7 +25,7 @@ Route::get('guru', function () {
 Route::get('siswa', function () {
     return view('siswa.index');
 });
-Route::get('/contact', function () {
+Route::get('siswa/contact', function () {
     return view('siswa.contact');
 });
 Route::get('siswa/lessons', function () {
