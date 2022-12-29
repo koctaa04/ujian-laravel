@@ -59,7 +59,7 @@
                         <a class="nav-link px-md-4" href="/guru/lessons">My Lessons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-md-4" href="guru/settings">settings</a>
+                        <a class="nav-link px-md-4" href="/guru/settings">settings</a>
                     </li>
                 </ul>
                 <div class="d-flex">
