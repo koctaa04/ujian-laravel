@@ -3,7 +3,7 @@
     <div class="container">
         <h1 class="text-center">Student Data</h1>
         <div class="row mt-4">
-            <div class="col-md-8">
+            <div class="col-lg-8 col-md-12 mb-4">
                 <div class="card">
                     <div class="card-header">
                         <h5 class="mt-2">Student Data</h5>
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 ml-auto">
+            <div class="col-lg-4 col-md-12 ml-auto">
                 <form action="">
                     <div class="card">
                         <div class="card-header">Register</div>
@@ -74,7 +74,7 @@
         {{-- Footer --}}
         <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-center py-2 px-4 px-xl-5">
             <!-- Copyright -->
-            <div class=" mb-3 mb-md-0">
+            <div class="mt-4 mb-md-0">
                 Copyright © 2022. stevendesu.
             </div>
             <!-- Copyright -->

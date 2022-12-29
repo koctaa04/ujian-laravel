@@ -40,3 +40,6 @@ Route::get('siswa/contact', function () {
 Route::get('siswa/lessons', function () {
     return view('siswa.lessons');
 });
+Route::get('guru/settings', function () {
+    return view('guru.settings');
+});
