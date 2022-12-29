@@ -14,10 +14,9 @@
                             class="d-sm-block d-none" />Don't worry because we are here to help you</p>
 
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 d-flex justify-content-center">
                     <img src="/img/test.png" width="90%" alt="">
                 </div>
-                <div class="col-md-6"></div>
             </div>
         </div>
 
@@ -25,47 +24,25 @@
             <h1>Lessons</h1>
             <p>You can easily manage your business with a powerful tools</p>
             <div class="row">
-                <div class="col-lg-4 p-4 ">
-                    <div class="p-5 border rounded-5">
-                        <div class="p-2">
-                            <img src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content2/Content-2-5.png"
-                                alt="" />
+                @for ($x = 1; $x <= 3; $x++)
+                <div class="lessons col-lg-4 p-4 ">
+                    <a href="">
+                        <div class="p-5 border rounded-5">
+                            <div class="p-2">
+                                <img src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content2/Content-2-5.png"
+                                    alt="" />
+                            </div>
+                            <h3 class="p-2">Mathematics</h3>
+                            <p class=" text-secondary">
+                                This can easily help you to<br />
+                                grow up your business fast
+                            </p>
                         </div>
-                        <h3 class="p-2">Mathematics</h3>
-                        <p class=" text-secondary">
-                            This can easily help you to<br />
-                            grow up your business fast
-                        </p>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 p-4 ">
-                    <div class="p-5 border rounded-5">
-                        <div class="p-2">
-                            <img src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content2/Content-2-5.png"
-                                alt="" />
-                        </div>
-                        <h3 class="p-2">Mathematics</h3>
-                        <p class=" text-secondary">
-                            This can easily help you to<br />
-                            grow up your business fast
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 p-4 ">
-                    <div class="p-5 border rounded-5">
-                        <div class="p-2">
-                            <img src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content2/Content-2-5.png"
-                                alt="" />
-                        </div>
-                        <h3 class="p-2">Mathematics</h3>
-                        <p class=" text-secondary">
-                            This can easily help you to<br />
-                            grow up your business fast
-                        </p>
-                    </div>
-                </div>
+            @endfor
             </div>
-            <button type="button" class="btn btn-outline-info">More Lessons</button>
+            <a href="/siswa/lessons" class="btn btn-outline-info">More Lessons</a>
         </div>
 
         {{-- Footer --}}

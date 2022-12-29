@@ -4,16 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Ujian</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <style>
-        .title-text-big {
-            font: 60px / normal Poppins, sans-serif;
+    {{-- My Css --}}
+    <link rel="stylesheet" href="/css/styleSiswa.css" type="text/css">
 
-            color: #243142;
-        }
-    </style>
+    {{-- Icon --}}
+    <link rel="shortcut icon" href="/img/test.png" />
 </head>
 
 <body>

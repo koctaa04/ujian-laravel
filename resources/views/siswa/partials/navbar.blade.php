@@ -31,7 +31,8 @@
     <nav class="navbar-1-1 navbar navbar-expand-lg navbar-light p-4 px-md-4 mb-3 bg-body"
         style="font-family: Poppins, sans-serif">
         <div class="container">
-            <a class="navbar-brand" href="#">
+
+            <a class="navbar-brand" href="/siswa">
                 <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -50,18 +51,17 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link px-md-4 active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link px-md-4 active" aria-current="page" href="/siswa">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-md-4" href="#">Lessons</a>
+                        <a class="nav-link px-md-4" href="/siswa/lessons">Lessons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-md-4" href="#">Contacts</a>
+                        <a class="nav-link px-md-4" href="/siswa/contacts">Contacts</a>
                     </li>
                 </ul>
                 <div class="d-flex">
-                    <a class="btn btn-get-started btn-get-started-blue text-white" href="#">Get
-                        Started</a>
+                    <a class="btn btn-get-started btn-get-started-blue text-white" href="#">Logout</a>
                 </div>
             </div>
         </div>
