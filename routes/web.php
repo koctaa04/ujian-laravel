@@ -28,6 +28,9 @@ Route::get('guru/studentData', function () {
 Route::get('guru/lessons', function () {
     return view('guru.lessons');
 });
+Route::get('guru/lessons/questions', function () {
+    return view('guru.questions');
+});
 Route::get('siswa', function () {
     return view('siswa.index');
 });

@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-header d-flex justify-content-between">
                         <h5 class="mt-2">List of Subjects</h5>
-                        <a href="" class="btn btn-outline-success">Add Questions</a>
+                        <a href="/guru/lessons/questions" class="btn btn-outline-success">Add Questions</a>
                     </div>
                     <div class="card-body">
                         <br />
@@ -25,7 +25,7 @@
                                 @for ($i = 1; $i <= 10; $i++)
                                     <tr>
                                         <td>1</td>
-                                        <td>Astronomy</td>
+                                        <td>Mathematics</td>
                                         <td>Chapter 1</td>
                                         <td>10 Questions</td>
                                         <td>

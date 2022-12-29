@@ -6,7 +6,7 @@
             <div class="col-md">
                 <div class="card text-center">
                     <div class="card-header">
-                        <h4>Sains</h4>
+                        <h4>Mathematics</h4>
                     </div>
                     <div class="card-body row">
                         @for ($i = 1; $i <= 10; $i++)
