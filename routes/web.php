@@ -22,9 +22,24 @@ Route::get('login', function () {
 Route::get('guru', function () {
     return view('guru.index');
 });
+Route::get('guru/studentData', function () {
+    return view('guru.studentData');
+});
+Route::get('guru/lessons', function () {
+    return view('guru.lessons');
+});
+Route::get('guru/lessons/questions', function () {
+    return view('guru.questions');
+});
 Route::get('siswa', function () {
     return view('siswa.index');
 });
+Route::get('siswa/contact', function () {
+    return view('siswa.contact');
+});
 Route::get('siswa/lessons', function () {
     return view('siswa.lessons');
+});
+Route::get('guru/settings', function () {
+    return view('guru.settings');
 });
