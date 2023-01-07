@@ -13,6 +13,8 @@
 </head>
 
 <body>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    @yield('script')
     @include('guru.partials.navbar')
     @yield('container')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
