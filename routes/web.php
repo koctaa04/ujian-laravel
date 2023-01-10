@@ -43,3 +43,9 @@ Route::get('siswa/lessons', function () {
 Route::get('guru/settings', function () {
     return view('guru.settings');
 });
+Route::get('siswa/lessons/detail', function () {
+    return view('siswa.detailLesson');
+});
+Route::get('siswa/exam', function () {
+    return view('siswa.exam');
+});

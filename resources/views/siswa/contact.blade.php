@@ -1,8 +1,8 @@
 @extends('siswa.layout.layout')
 @section('container')
     <div class="container">
-        <h1 class="text-center">Contacts</h1>
-        <div class="row mt-5">
+        <h1 class="text-center mb-5">Contacts</h1>
+        <div class="row">
             <div class="col-5">
                 <div class="card">
                     <div class="card-header">
@@ -35,10 +35,10 @@
                     </form>
                 </div>
             </div>
-            <div class="map col-7">
+            <div class="map col-7 mb-4">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.904709279331!2d114.34868731433117!3d-8.212337684673798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd14ff70f397b65%3A0xd4855a1d5d5b2480!2sSMK%20Negeri%201%20Banyuwangi!5e0!3m2!1sid!2sid!4v1672290155525!5m2!1sid!2sid"
-                    width="650" height="510" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="750" height="410" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>

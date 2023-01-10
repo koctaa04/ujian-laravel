@@ -2,7 +2,7 @@
 @section('container')
     <div class="container">
         <h1 class="text-center">Personal Data</h1>
-        <div class="row border rounded-4 p-5">
+        <div class="row  p-5">
             <div class="col-lg-4 ">
                 <div class="card mb-3">
                     <img src="/img/man.png" class="card-img-top mt-3 mb-3 px-5" alt="...">

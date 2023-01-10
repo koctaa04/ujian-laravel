@@ -6,7 +6,7 @@
         <div class="row">
             @for ($x = 1; $x <= 10; $x++)
                 <div class="lessons col-lg-4 col-xs-4 col-sm-6 col-md-6 mb-4 ">
-                    <a href="">
+                    <a href="/siswa/lessons/detail">
                         <div class="p-5 border rounded-5">
                             <div class="p-2">
                                 <img src="http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content2/Content-2-5.png"
