@@ -40,23 +40,31 @@
                 <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
                     <div class="card p-5 bg-primary bg-opacity-10">
                         <h4 class="mb-4">Sign In!</h4>
-                        <form>
+
+                        @if(session()->has('login_error'))
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            {{ session('login_error') }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        @endif
+
+                        <form action="/login" method="post">
+                            @csrf
                             <!-- Email input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="form3Example3">Email address</label>
-                                <input type="email" id="form3Example3" class="form-control form-control-lg"
-                                    placeholder="Enter a valid email address" />
+                                <input type="text" name="nisn" class="form-control" placeholder="NISN" required>
                             </div>
 
                             <!-- Password input -->
                             <div class="form-outline mb-3">
                                 <label class="form-label" for="form3Example4">Password</label>
-                                <input type="password" id="form3Example4" class="form-control form-control-lg"
-                                    placeholder="Enter password" />
+                                <input type="password" name="password" class="form-control" placeholder="Password"
+                                        required>
                             </div>
 
                             <div class="text-center text-lg-start mt-4 pt-2">
-                                <button type="button" class="btn btn-outline-success btn-lg"
+                                <button type="submit" class="btn btn-outline-success btn-lg"
                                     style="
                                             padding-left: 2.5rem;
                                             padding-right: 2.5rem;

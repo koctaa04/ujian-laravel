@@ -60,9 +60,14 @@
                         <a class="nav-link px-md-4" href="/siswa/contact">Contacts</a>
                     </li>
                 </ul>
+                <form action="/logout" method="post">
+                    @csrf
                 <div class="d-flex">
-                    <a class="btn btn-get-started btn-get-started-blue text-white" href="#">Logout</a>
+                    <button type="submit">
+                    <a class="btn btn-get-started btn-get-started-blue text-white">Logout</a>
+                </button>
                 </div>
+            </form>
             </div>
         </div>
     </nav>
