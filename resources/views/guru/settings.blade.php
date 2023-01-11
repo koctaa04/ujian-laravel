@@ -19,7 +19,7 @@
                 <div class="card">
                     <div class="card-header d-flex justify-content-between">
                         <h5 class="card-title mt-2">Change Personal Data</h5>
-                        <a href="" class="btn btn-outline-primary">Change Data</a>
+                        <a href="" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#ubahData">Change Data</a>
                     </div>
                     <div class="card-body">
                         <div class=" mx-auto" >
@@ -56,6 +56,54 @@
                               </li>
                             </ul>
                           </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- modal ubah data --}}
+        <div class="modal fade" id="ubahData" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Change Personal Data</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            @csrf
+                            <div class="card-body">
+                                <input type="hidden" name="" id="">
+                                <input type="text" name="" id="" value="murid" hidden>
+                                <div class="form-group mt-2">
+                                    <label for="">Name</label>
+                                    <input type="text" id="" name="" class="form-control" required>
+                                </div>
+                                <div class="form-group mt-2">
+                                    <label for="">Lesson</label>
+                                    <input type="text" id="" name="" class="form-control" required>
+                                </div>
+                                <div class="form-group mt-2">
+                                    <label for="">Email</label>
+                                    <input type="text" id="" name="" class="form-control" required>
+                                </div>
+                                <div class="form-group mt-2">
+                                    <label for="">Password</label>
+                                    <input type="password" id="password" name="password" class="form-control" required>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" value="" id="passEdit" onclick="passUbah()">
+                                        <label for="passEdit" class="form-check-label">
+                                            <p>Show Password</p>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <input type="submit" class="btn btn-primary" id="ubah" value="Save changes">
                     </div>
                 </div>
             </div>

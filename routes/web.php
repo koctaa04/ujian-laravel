@@ -37,6 +37,9 @@ Route::get('guru/lessons', function () {
 Route::get('guru/lessons/questions', function () {
     return view('guru.questions');
 });
+Route::get('guru/lessons/detail', function () {
+    return view('guru.detail');
+});
 Route::get('siswa', function () {
     return view('siswa.index');
 });

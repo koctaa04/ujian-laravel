@@ -10,7 +10,7 @@
                         <a href="/guru/lessons/questions" class="btn btn-outline-success">Add Questions</a>
                     </div>
                     <div class="card-body">
-                        <br />
+                        <br /> 
                         <table class="table table-bordered border-striped table-hover">
                             <thead>
                                 <tr>
@@ -29,8 +29,8 @@
                                         <td>Chapter 1</td>
                                         <td>10 Questions</td>
                                         <td>
-                                            <a href="" class="btn btn-primary">Detail</a>
-                                            <a href="" class="btn btn-danger">Delete</a>
+                                            <a href="/guru/lessons/detail" class="btn btn-primary">Detail</a>
+                                            <button onclick="validate()" class="btn btn-danger">Delete</button>
                                         </td>
                                     </tr>
                                 @endfor
@@ -49,4 +49,28 @@
             <!-- Copyright -->
         </div>
     </div>
+@endsection
+
+@section('script')
+    <script>
+        function validate() {
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire(
+                        'Deleted!',
+                        'Your file has been deleted.',
+                        'success'
+                    )
+                }
+            })
+        }
+    </script>
 @endsection
